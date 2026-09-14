@@ -2,7 +2,6 @@
 
 An end-to-end decision analytics project that diagnoses underperforming sales territories/reps, predicts expected sales given activity levels, and prescribes a resource (call/budget) reallocation strategy with a quantified revenue impact.
 
-Built to mirror the kind of commercial analytics problem ZS Associates solves for pharma and life-sciences clients: sales force effectiveness, promotion response modeling, and territory optimization.
 
 ## Problem Statement
 
@@ -93,6 +92,10 @@ streamlit run dashboard/app.py
 - Model performance (R² / RMSE on hold-out set)
 - Number of territories flagged as under/over-resourced
 - Projected revenue uplift from reallocation
+
+## Future Scope
+    - An LLM-powered "insight summarizer" that takes your model outputs (which territories are under/over-resourced, projected uplift) and auto-generates a plain-English executive summary or Q&A interface ("ask questions about the recommendation in natural language") inside Streamlit dashboard
+
 
 ## Author
 
